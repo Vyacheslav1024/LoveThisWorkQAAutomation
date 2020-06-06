@@ -3,6 +3,7 @@ package main.java.Lesson3;
 public class N_Functions {
     public static void main(String[] args) {
         greet("Vova", 50);
+        //greet(50 "Vova"); Error
         greet("Petr");
         greet(80);
         //int age = getAge();
