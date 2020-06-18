@@ -1,4 +1,4 @@
-package main.java.Lesson3;
+package main.java.lesson3;
 
 public class E_Int_and_other {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package main.java.Lesson4;
+package main.java.lesson4;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,6 +26,9 @@ public class Main {
        // cat1.initialize("Vasiliy");
         cat2.greet("Vova");
         cat3.greet("Vova");
+        cat1.setAge(-10);
+        //cat1.color = "fgfgh" Error т.к. public final String color = "red";
+        System.out.println(cat1.getAge());
         //Cat.counter = 0; напишет, что мы создали 0 экземпляров
         //System.out.println(Cat.counter);
         //cat1.age = 50; нельзя поменять age т.к. private int age
