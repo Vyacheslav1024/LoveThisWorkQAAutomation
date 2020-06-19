@@ -1,4 +1,4 @@
-package main.java.Homework;
+package main.java.Homework.JavaIntro;
 
 public class Task5 {
     static char reversedStr[];
