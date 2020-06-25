@@ -29,7 +29,7 @@ public class Task5 {
     public Object[][] getData() {
         return new Object[][]{
                 {"Hello Ukraine!", "!eniarkU olleH"},
-                {"Hello China!", "!anihC olleH"},
+                {"Hello Chi1na!", "!anihC olleH"},
                 {"Hello USA!", "!ASU olleH"},
 
         };

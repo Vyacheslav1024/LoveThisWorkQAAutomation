@@ -33,7 +33,7 @@ public class Task2 {
         String[] names = temp.split("\\s+");
         System.out.println(Arrays.toString(names));
         Assert.assertTrue(expectedNamesCount == names.length,
-                "Here should be names " + expectedNamesCount + " but got " + names.length);
+                "Expected number of names " + expectedNamesCount + " but got " + names.length);
     }
 }
 
