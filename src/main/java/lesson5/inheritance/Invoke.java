@@ -17,6 +17,7 @@ public class Invoke {   // класс необходим для того, что
         System.out.println(vasiliy); // эти три записи абсолютно идентичны - под капотом
         // вот эта штука (vasiliy) превращается вот в такую штуку (vasiliy.toString())
         /*System.out.println(vasiliy.toString());*/ // эти три записи абсолютно идентичны
+        //4 == 4;
         System.out.println(vasiliy.equals(victor)); // так сравнивают один объект с другим
         //System.out.println(vasiliy == victor); // так нельзя сравнивать объекты, оператор "=="
         // необходимо использовать исключительно для примитивных типов
