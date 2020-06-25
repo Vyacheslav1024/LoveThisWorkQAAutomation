@@ -25,17 +25,17 @@ public class Task5 {
         }
         return new String(reversedStr);
     }
-    @DataProvider(name = "HelloWord")
+    @DataProvider(name = "helloWord")
     public Object[][] getData() {
         return new Object[][]{
                 {"Hello Ukraine!", "!eniarkU olleH"},
-                {"Hello Chi1na!", "!anihC olleH"},
+                {"Hello China!", "!anihC olleH"},
                 {"Hello USA!", "!ASU olleH"},
 
         };
     }
 
-    @Test(dataProvider = "HelloWord")
+    @Test(dataProvider = "helloWord")
     public void testRevertedString(String normalString, String revertedString) {
         String actualResult = reversestr(normalString);
         assertEquals(

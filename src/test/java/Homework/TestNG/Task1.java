@@ -21,7 +21,7 @@ public class Task1 {
             }
 
     }
-    @DataProvider(name = "numbers")
+    @DataProvider(name = "numerals")
     public Object[][] getData() {
         return new Object[][]{
                 {5, 2, 3, 2},
@@ -30,7 +30,7 @@ public class Task1 {
         };
     }
 
-    @Test(dataProvider = "numbers")
+    @Test(dataProvider = "numerals")
     public void testMinNumber ( int number1, int number2, int number3, int expectedMinimum){
         int actualMinimum = min(number1, number2, number3);
         assertEquals(
